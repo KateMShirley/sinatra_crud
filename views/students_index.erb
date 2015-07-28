@@ -1,0 +1,8 @@
+<h3>All of the Students<h3>
+<ol>
+<% @students.each do |student| %>
+
+<li><%= student.name %> has an email of <%= student.email %>
+</li>
+
+<% end %>
